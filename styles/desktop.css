@@ -96,13 +96,14 @@ header {
 
 #about {
     width: 100%;
-    padding: 75px 200px;
+    padding: 100px 200px;
 
     color: #FFF;
     background-color: var(--navy-blue);
 }
 
 #about>h2 {
+    margin: 0;
     font-size: 38pt;
     text-align: center;
 }
@@ -115,7 +116,9 @@ header {
 }
 
 #about p {
-    width: 40%;
+    width: 50%;
+    padding-bottom: 15px;
+    border-bottom: 15px solid white;
 
     font-size: 20pt;
 }
@@ -135,4 +138,24 @@ header {
 
 #about-section-2>p {
     text-align: right;
+}
+
+#projects {
+    padding: 100px 200px;
+}
+
+#projects>h2 {
+    margin: 0;
+
+    color: var(--navy-blue);
+
+    font-size: 38pt;
+    text-align: center;
+}
+
+#projects>p {
+    margin-top: 80px;
+    font-size: 16pt;
+    font-style: italic;
+    text-align: center;
 }
